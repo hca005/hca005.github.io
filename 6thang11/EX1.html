@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" required>
+        <br>
+        <label for = "email">Email:</label>
+        <input type="email" name ="email" id="email"required>
+        <br>
+
+    <label for = "phone"> Phone:</label>
+    <input type="tel" name="phone" id="phone" required>
+
+    <!--SELECT GENDER-->
+    <label for="gender">Gender:</label>
+    <select id="gender" name="gender" required>
+        <option value="">Select</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+    </select> <br>
+
+    <!--COURSE HAVE ATTENDED AS CHECKBOXES-->
+    <label>Courses Attended:</label><br>
+    <input type="checkbox" id="course1" name="courses" value="course1">
+    <label for="course1">Course 1</label><br>
+    <input type="checkbox" id="course2" name="course" value="course2">
+    <label for="course2">Course2 </label><br>
+    <input type="checkbox" id="course3" name="course" value="course3">
+    <label for="course3">Course3 </label><br>
+
+    <input type="submit" value="Submit">
+
+    </form>
+</body>
+</html>
